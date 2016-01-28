@@ -257,31 +257,40 @@ namespace EmailAddin
                 {
                     foreach (Field field in lf)
                     {
-                        if (field.Hidden)
-                            continue;
+//                      if (field.Hidden)
+                    //        continue;
                         String value = "";
                         String name = field.InternalName;
-                        if (oListItem.FieldValues.ContainsKey(field.InternalName) && oListItem[field.InternalName] != null)
+                        if (oListItem.FieldValues.ContainsKey(field.InternalName))
                         // if (oListItem[field.InternalName] != null)
                         {
                             if (field.TypeAsString.Equals("User"))
                             {
-                                secondaryValues.Add(name, ((FieldUserValue)oListItem[field.InternalName]).LookupValue
-                                     + "#" + getUserEmail((FieldUserValue)oListItem[field.InternalName]));
+                                if (oListItem[field.InternalName] != null)
+                                    secondaryValues.Add(name, ((FieldUserValue)oListItem[field.InternalName]).LookupValue
+                                       + "#" + getUserEmail((FieldUserValue)oListItem[field.InternalName]));
+                                else
+                                    secondaryValues.Add(name, "#");
 
                             }
                             else if (field.TypeAsString.Equals("Lookup"))
                             {
-                                String itemTest = oListItem[name].ToString();
-                                if (!itemTest.Equals("Microsoft.SharePoint.Client.FieldLookupValue"))
-                                    value = itemTest;
-                                else
-                                    value = ((FieldLookupValue)oListItem[name]).LookupValue;
+                                String itemTest = "";
+                                if (oListItem[field.InternalName] != null)
+                                {
+                                    oListItem[name].ToString();
+                                    if (!itemTest.Equals("Microsoft.SharePoint.Client.FieldLookupValue"))
+                                        value = itemTest;
+                                    else
+                                        value = ((FieldLookupValue)oListItem[name]).LookupValue;
+                                }
                                 secondaryValues.Add(name, value);
                             }
                             else
                             {
-                                value = oListItem[name].ToString();
+                                if (oListItem[field.InternalName] != null)
+                                
+                                    value = oListItem[name].ToString();
                                 secondaryValues.Add(name, value);
                             }
                         }
@@ -669,6 +678,8 @@ namespace EmailAddin
                 if (send.Equals("Yes"))
                 {
                     bool tesetSend = true;
+                    if( dtagrid != null)
+                         tesetSend = false;
                     if (emailDiagCount++ < 50 && sendTestEmails)
                     {
                         try
@@ -743,10 +754,18 @@ namespace EmailAddin
         /// <returns> the new colmun count</returns>
         public int setUpDataGrid(ListConfig listConfig, DataGridView dtagrid)
         {
-            int activeFieldsCount = 0;
+            int activeFieldsCount = 0; // total count of fieleds
+            int activeCount = 0; // cound of teh active booena list
+            int secondCount = 0;// count of the secondary list
+            int baseCount = 7; // base count for the grid
+            if (listConfig._ActiveFields != null)
+                activeCount = listConfig._ActiveFields.Count;
+            if (listConfig._secondaryFields != null)
+                secondCount = listConfig._secondaryFields.Count;
+
             if (dtagrid== null)// we are in a ral run an not testing
-                return 7 + listConfig._ActiveFields.Count + listConfig._secondaryFields.Count;
-            dtagrid.ColumnCount = 7 + listConfig._ActiveFields.Count + listConfig._secondaryFields.Count;
+                return baseCount + activeCount + secondCount;
+            dtagrid.ColumnCount = baseCount + activeCount + secondCount;
 
             foreach (String af in listConfig._ActiveFields)
                 dtagrid.Columns[activeFieldsCount++].Name = af;
@@ -804,7 +823,7 @@ namespace EmailAddin
                         retStr = retStr.Replace(match.ToString(), URL);
                     }
                     else
-                    {// check to see if the nam has an attribute tie, to it
+                    {// check to see if the name has an attribute tie, to it
                         // a # indicates we need the email part of aa userfield
                         // | indicates we need to format the namePart eg "Date|MM/dd/yyyy
                         String namePart = "";  // once split this is the true name portion 
