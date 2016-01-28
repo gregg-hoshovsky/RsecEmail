@@ -1,2 +1,0 @@
-Title	Status	SendReminder	FollowUpFrequency	Assignee	ID	ContentType	Modified	Created	Author	Editor	_UIVersionString	Attachments	Edit	LinkTitleNoMenu	LinkTitle	DocIcon	ItemChildCount	FolderChildCount	AppAuthor	AppEditor	
-Text	Choice	Boolean	DateTime	User	Counter	Computed	DateTime	DateTime	User	User	Text	Attachments	Computed	Computed	Computed	Computed	Lookup	Lookup	Lookup	Lookup	

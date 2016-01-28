@@ -1,3 +1,0 @@
-<?xml version='1.0'?>
-<export servername = "http://spapps-a159086469dd36.apps.dighealth-dev.local:8888/RSECApp/" listname = "Report Links">
-</export>
