@@ -648,7 +648,7 @@ namespace EmailAddin
                     else
                         throw new Exception(Msg);
                 }
-                if (interval < 0 || (interval % Frequency) != 0)
+                if (interval <= 0 || (interval % Frequency) != 0)
                     send = "No";
 
                 int gridRowCount = 0;
