@@ -1,0 +1,12 @@
+{
+  "_SMTPServerName": "<serverName>",
+  "_SMTPUserId": "<sharePointServiceId>",
+  "_SMTPPwd": "<userId>",
+  "_SMTPPort": "<port>",
+  "_SMTPSsl": "Check if SSL is needed",
+  "_SharePointServerList": [
+    "<sharePointAppList>"
+  ],
+  "_Logger": null,
+  "_TestEmailTo": "<testerEmail>"
+}

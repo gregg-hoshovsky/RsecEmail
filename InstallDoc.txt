@@ -1,0 +1,105 @@
+THe installation created two programs
+a) A Testing/configuration Application.THis has a separate document  TBD.
+b) THe Email Reminder Job. The follwoing requirements must be met for this to run
+	THis job needs to be set into a windows schedule job to run once a day.  
+	It must operate under a Sharepoint service account wirh full control
+	It must have the SMTP portion configured in MasterConfig.txt
+	IT must have a file create per Sharpoint App/List.
+	The application must run in the same folder as the configuration files.
+	The current state of logging is via the Console, so that must be recirected to a log file
+		eg. EmailAddinDaemon 1> output.txt 2>&1
+
+--------------------------------------------------------------------------------
+Here is a Skeleton MasterConfig.txt file
+
+{
+  "_SMTPServerName": "<serverName>",
+  "_SMTPUserId": "<sharePointServiceId>",
+  "_SMTPPwd": "<userId>",
+  "_SMTPPort": "<port>",
+  "_SMTPSsl": "Check if SSL is needed",
+  "_SharePointServerList": [
+    "<sharePointAppList>"
+  ],
+  "_Logger": null,
+  "_TestEmailTo": "<testerEmail>"
+}
+
+
+------------------------------------------------------------------------------------
+
+
+The Sharepoint App/List configruation files follow the following format:
+
+_<APPRoot>_<ListName>
+
+SO for the "Action Items" list under the RSEC sharepoint Url : http://spapps-a159086469dd3b.apps.dighealth-dev.local:8888/RSECApp
+
+The file name would be:
+
+_RSECApp_Action Items
+
+THe file format is as follows:
+
+----------------------------------------------------------------
+
+
+
+
+{
+  "_SharePointServerName": "<Sharepoint URL>",
+  "_SharePointSListName": "<SharePoint List Name>",
+  "_UserField": "<A field that contains a sharepoint Userfield that is the target of the email",
+  "_ActiveFields": [
+    "< A list of two boolean values that con be used in the list to control sending the email>"
+  ],
+  "_FrequencyField": "<The List item that will control the frequency of the emails>",
+  "_FrequecncyItems": {
+    "<period indicator>": "<numeric value>",
+    "Semi-Weekly": "14",
+    "Monthly": "30"
+  },
+  "_emailSubject": "<the subject... foratting of variablse in teh primary or seconary list {<fieldname>} Overdue",
+  "_emailBody": "The body.. it has two formatting techniques.. one for dates {ActionItemDueDate|MM/dd/yyyy}. a secret tag for the URL{URL}/Pages/Default.aspx#/request?request={RequestID}  and one to extrat the name and email address of a field {CurrentHandler#Name} at mailto:{CurrentHandler#Email}, or the RSEC/RSSOC facilitator at mailto:{ProcessManagerMail}.\r\n",
+  "_emailFrom": "<from email address>",
+  "_DateField": "<field used to calculate the frquency>",
+  "_CAMLQUery": "<A Sharepoit CAML query to extract just the data that is needed. This over rides the _ActiveFields setting above>",
+  "_joinFeeld": "The field used to join a secondary list if needed by the app>",
+  "_secondaryListName": "<The secondary list for joining to>",
+  "_secondaryFields": [
+    "<fields accesible from the secondary list>",
+  ]
+}
+
+
+-----------------------------------------------------------------
+Below is a functinoing example @ the ClearData Dev environment:
+
+
+
+{
+  "_SharePointServerName": "http://spapps-a159086469dd3b.apps.dighealth-dev.local:8888/RSECApp",
+  "_SharePointSListName": "Action Items",
+  "_UserField": "Assignee",
+  "_ActiveFields": [
+    "SendReminder"
+  ],
+  "_FrequencyField": "FollowupFrequency",
+  "_FrequecncyItems": {
+    "Weekly": "7",
+    "Semi-Weekly": "14",
+    "Monthly": "30"
+  },
+  "_emailSubject": "Assigned Action Item for RSEC Request #{RequestID} Overdue",
+  "_emailBody": "An action item assigned to you from RSEC request #{RequestID} - \"{Title}\" was due to be completed on {ActionItemDueDate|MM/dd/yyyy}.\r\n\r\n \r\n\r\n {URL}/Pages/Default.aspx#/request?request={RequestID} \r\n\r\n \r\n\r\nOnce the action has been completed please remember to change the action item's status to 'Complete'.  If you have any questions regarding the action item please contact the RSEC request assignee, {CurrentHandler#Name} at mailto:{CurrentHandler#Email}, or the RSEC/RSSOC facilitator at mailto:{ProcessManagerMail}.\r\n",
+  "_emailFrom": "RSEC Application <noreply@dignithyhealth.org>",
+  "_DateField": "ActionItemDueDate",
+  "_CAMLQUery": "<And><Eq><FieldRef Name='SendReminder'/><Value Type='Bool'>True</Value></Eq><Or>\r\n<Eq><FieldRef Name='ActionItemStatus'/><Value Type='Text'>Active</Value></Eq>\r\n<Eq><FieldRef Name='ActionItemStatus'/><Value Type='Text'>Hold</Value></Eq>\r\n</Or></And>",
+  "_joinFeeld": "RequestID",
+  "_secondaryListName": "Requests",
+  "_secondaryFields": [
+    "ProcessManager",
+    "ID",
+    "ProcessManager"
+  ]
+}

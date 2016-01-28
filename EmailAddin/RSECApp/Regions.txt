@@ -1,0 +1,1002 @@
+<?xml version='1.0'?>
+<export servername = "http://spapps-a159086469dd36.apps.dighealth-dev.local:8888/RSECApp/" listname = "Regions">
+	<row count = "0">
+		<field name="ID" hidden="false" type="Counter">1</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+All
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">100</field>
+		<field name="GUID" hidden="false" type="Guid">6d7f4bb4-34f0-4382-9c82-21c6dd7584a9</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/1_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">1_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+6dffd7d3-bc48-4a2d-bcb1-c70c1281c801
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "1">
+		<field name="ID" hidden="false" type="Counter">2</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Arizona
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">200</field>
+		<field name="GUID" hidden="false" type="Guid">47ec7f13-624f-46db-8549-c57a17c8b75f</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/2_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">2_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+bb2ac951-497e-449f-8f96-f6115da3d214
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "2">
+		<field name="ID" hidden="false" type="Counter">3</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Bay Area
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">300</field>
+		<field name="GUID" hidden="false" type="Guid">4f415e41-1353-4e5a-ac2f-f857b268c8c4</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/3_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">3_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+4f386757-84c4-4ae2-a4fe-1f1e7b869eaf
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "3">
+		<field name="ID" hidden="false" type="Counter">4</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Central Coast
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">400</field>
+		<field name="GUID" hidden="false" type="Guid">3591b569-1f1b-4f8a-9f50-be72f0fef87c</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/4_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">4_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+1ffa6f9c-01a8-4893-98cc-571a978ed928
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "4">
+		<field name="ID" hidden="false" type="Counter">5</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Central Valley
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">500</field>
+		<field name="GUID" hidden="false" type="Guid">daff8f61-a7c4-4f28-92db-a9676b3202af</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/5_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">5_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+ee390f09-c26d-4512-82c0-d949e812b984
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "5">
+		<field name="ID" hidden="false" type="Counter">6</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Greater Sacramento
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">600</field>
+		<field name="GUID" hidden="false" type="Guid">443fea8b-96a0-4905-b85c-7d835c811449</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/6_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">6_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+47a5f4f7-610a-494e-ba02-8321d7164f3e
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "6">
+		<field name="ID" hidden="false" type="Counter">7</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Nevada
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">700</field>
+		<field name="GUID" hidden="false" type="Guid">49c30de8-c681-4081-9ad8-0df8f66c063c</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/7_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">7_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+4008c710-be36-4ba4-98e0-12c3216d8e6e
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "7">
+		<field name="ID" hidden="false" type="Counter">8</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+North State
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">800</field>
+		<field name="GUID" hidden="false" type="Guid">b42f9aae-9fb5-4de6-a6c6-8bd7aa150006</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/8_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">8_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+a16c6488-5aa0-43bd-932f-3f39edc1e924
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+	<row count = "8">
+		<field name="ID" hidden="false" type="Counter">9</field>
+		<field name="ContentTypeId" hidden="false" type="ContentTypeId">0x01009BE7271BFF654AB2BAB39F6C87EA9B5300FCC1922A9FE4BA438A4E93B7B0B50620</field>
+		<field name="Title" hidden="true" type="Text">
+			<![CDATA[
+Southern California
+]]>
+		</field>
+		<field name="Modified" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Created" hidden="false" type="DateTime">12/15/2015 6:55:51 PM</field>
+		<field name="Author" hidden="false" type="User">1073741823</field>
+		<field name="Editor" hidden="false" type="User">1073741823</field>
+		<field name="_HasCopyDestinations" hidden="false" type="Boolean">null</field>
+		<field name="_CopySource" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="owshiddenversion" hidden="false" type="Integer">1</field>
+		<field name="WorkflowVersion" hidden="false" type="Integer">1</field>
+		<field name="_UIVersion" hidden="false" type="Integer">512</field>
+		<field name="_UIVersionString" hidden="false" type="Text">
+			<![CDATA[
+1.0
+]]>
+		</field>
+		<field name="Attachments" hidden="true" type="Attachments">False</field>
+		<field name="_ModerationStatus" hidden="false" type="ModStat">0</field>
+		<field name="_ModerationComments" hidden="false" type="Note">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="InstanceID" hidden="false" type="Integer"></field>
+		<field name="Order" hidden="false" type="Number">900</field>
+		<field name="GUID" hidden="false" type="Guid">16d6fa94-e75c-4cce-ab9f-73aadf81b350</field>
+		<field name="WorkflowInstanceID" hidden="false" type="Guid">null</field>
+		<field name="FileRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions/9_.000
+]]>
+		</field>
+		<field name="FileDirRef" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+/RSECApp/Lists/Regions
+]]>
+		</field>
+		<field name="Last_x0020_Modified" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="Created_x0020_Date" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+2015-12-15T18:55:51Z
+]]>
+		</field>
+		<field name="FSObjType" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="SortBehavior" hidden="false" type="Lookup">0</field>
+		<field name="FileLeafRef" hidden="false" type="File">9_.000</field>
+		<field name="UniqueId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+7df972e8-e2c5-4201-8dd8-15d0dd65c2bd
+]]>
+		</field>
+		<field name="SyncClientId" hidden="false" type="Lookup"></field>
+		<field name="ProgId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="ScopeId" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+{8D9DC6A5-7FA2-4B31-B4C6-97CD3FDF4F91}
+]]>
+		</field>
+		<field name="File_x0020_Type" hidden="false" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="MetaInfo" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+
+]]>
+		</field>
+		<field name="_Level" hidden="false" type="Integer">1</field>
+		<field name="_IsCurrentVersion" hidden="false" type="Boolean">True</field>
+		<field name="ItemChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="FolderChildCount" hidden="false" type="Lookup" structure="String">
+			<![CDATA[
+0
+]]>
+		</field>
+		<field name="AppAuthor" hidden="false" type="Lookup"></field>
+		<field name="AppEditor" hidden="false" type="Lookup"></field>
+		<field name="Code" hidden="true" type="Text">
+		<![CDATA[
+
+]]>
+		</field>
+		<field name="Active" hidden="true" type="Boolean">True</field>
+	</row>
+</export>

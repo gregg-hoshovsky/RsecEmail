@@ -1,0 +1,12 @@
+{
+  "_SMTPServerName": "10.209.0.10",
+  "_SMTPUserId": "SP_services",
+  "_SMTPPwd": "zzcuw+qfQXiZIoNzazTC+w==??4P+QJ+IHrLBEIAZ0zjUknQ==",
+  "_SMTPPort": "25",
+  "_SMTPSsl": "Check if SSL is needed",
+  "_SharePointServerList": [
+    "http://spapps-a159086469dd3b.apps.dighealth-dev.local:8888/RSECApp"
+  ],
+  "_Logger": null,
+  "_TestEmailTo": "gregg.hoshovsky@dignityhealth.org"
+}

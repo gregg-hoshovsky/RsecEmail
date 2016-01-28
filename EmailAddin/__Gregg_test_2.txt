@@ -1,0 +1,17 @@
+{
+  "_SharePointServerName": "http://dighealth-dev01:8888/sites/sp-dev/",
+  "_SharePointSListName": "Gregg_test_2",
+  "_UserField": "Who",
+  "_ActiveFields": [
+    "Active"
+  ],
+  "_FrequencyField": "Freak",
+  "_FrequecncyItems": {
+    "Weekly": "1",
+    "Daily": "1",
+    "Bi-weekly": "1"
+  },
+  "_emailSubject": "Action needed on {ID}",
+  "_emailBody": "actionneeded on {URL}Pages/Default.aspx#/request?request={ID} for {Title} \r\nCreated {Created}\r\nCreate{Create}\r\nNoop {Noop}",
+  "_emailFrom": "App <noreply@dignithyhealth.org>"
+}

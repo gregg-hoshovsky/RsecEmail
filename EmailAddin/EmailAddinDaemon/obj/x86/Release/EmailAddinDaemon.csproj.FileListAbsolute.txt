@@ -1,0 +1,1 @@
+E:\Users\ghoshovsky\Documents\Visual Studio 2013\Projects\EmailAddin\EmailAddin\EmailAddinDaemon\bin\x86\Release\EmailAddinDaemon.exe.config

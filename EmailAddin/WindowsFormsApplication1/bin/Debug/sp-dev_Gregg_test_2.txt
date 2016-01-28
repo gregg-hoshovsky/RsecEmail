@@ -1,0 +1,1 @@
+{"_SharePointServerName":"System.Windows.Forms.ComboBox, Items.Count: 1","_SharePointSListName":"Gregg_test_2","_UserField":"Who","_ActiveField":"SendReminder","_ReminderField":null,"_FrequencyField":"Freak","_FrequecncyItems":{"Weekly":"1","Daily":"2","Bi-weekly":"3"}}

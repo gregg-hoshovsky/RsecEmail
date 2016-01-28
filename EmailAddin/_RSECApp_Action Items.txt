@@ -1,0 +1,25 @@
+{
+  "_SharePointServerName": "http://spapps-a159086469dd3b.apps.dighealth-dev.local:8888/RSECApp",
+  "_SharePointSListName": "Action Items",
+  "_UserField": "Assignee",
+  "_ActiveFields": [
+    "SendReminder"
+  ],
+  "_FrequencyField": "FollowupFrequency",
+  "_FrequecncyItems": {
+    "Weekly": "7",
+    "Semi-Weekly": "14",
+    "Monthly": "30"
+  },
+  "_emailSubject": "Assigned Action Item for RSEC Request #{RequestID} Overdue",
+  "_emailBody": "An action item assigned to you from RSEC  <a href=\"{URL}/Pages/Default.aspx#/request?request={RequestID}\">Request #{RequestID} - \"{Title}\"</a> was due to be completed on {ActionItemDueDate|MM/dd/yyyy}.\r\n<br/><br/>\r\nOnce the action has been completed please remember to change the action item's status to 'Complete'. \r\n<br/><br/>\r\nIf you have any questions regarding the action item please contact the RSEC request assignee, <a href=\"mailto:{CurrentHandler#Email}\">{CurrentHandler#Name} </a>, or the  <a href=\"mailto:{ProcessManagerMail}\">RSEC/RSSOC facilitator</a>.\r\n",
+  "_emailFrom": "RSEC Application <noreply@dignithyhealth.org>",
+  "_DateField": "ActionItemDueDate",
+  "_CAMLQUery": "<And><Eq><FieldRef Name='SendReminder'/><Value Type='Bool'>True</Value></Eq><Or>\r\n<Eq><FieldRef Name='ActionItemStatus'/><Value Type='Text'>Active</Value></Eq>\r\n<Eq><FieldRef Name='ActionItemStatus'/><Value Type='Text'>Hold</Value></Eq>\r\n</Or></And>",
+  "_joinFeeld": "RequestID",
+  "_secondaryListName": "Requests",
+  "_secondaryFields": [
+    "ID",
+    "ProcessManager"
+  ]
+}
