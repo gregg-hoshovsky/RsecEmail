@@ -1,1 +1,0 @@
-{"_SMTPServerName":"smtp-relay.chw.edu","_SMTPUserId":"SP_services","_SMTPPwd":"","_SMTPPort":"25","_SMTPSsl":"Check if SSL is needed","_SharePointServerList":["http://dighealth-dev01:8888/sites/sp-dev/"],"_DateTestFlag":"","_Logger":"","_TestEmailTo":""}

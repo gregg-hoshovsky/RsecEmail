@@ -1,1 +1,0 @@
-{"_SharePointServerName":"http://dighealth-dev01:8888/sites/sp-dev/","_SharePointSListName":"Gregg_test_2","_UserField":"Who","_ActiveField":"SendReminder","_ReminderField":"Active","_FrequencyField":"Freak","_FrequecncyItems":{"Weekly":"1","Daily":"2","Bi-weekly":"3"}}
