@@ -1906,6 +1906,7 @@
 		<row><td>emailaddindaemon.exe2</td><td>EmailAddinDaemon.exe2</td><td>EMAILA~1.EXE|EmailAddinDaemon.exe</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Users\ghoshovsky\Documents\Visual Studio 2013\Projects\EmailAddin\EmailAddin\EmailAddinDaemon\bin\Release\EmailAddinDaemon.exe</td><td>1</td><td/></row>
 		<row><td>installdoc.txt</td><td>ISX_DEFAULTCOMPONENT1</td><td>INSTAL~1.TXT|InstallDoc.txt</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Users\ghoshovsky\Documents\Visual Studio 2013\Projects\EmailAddin\InstallDoc.txt</td><td>1</td><td/></row>
 		<row><td>masterconfig.txt</td><td>ISX_DEFAULTCOMPONENT1</td><td>MASTER~1.TXT|MasterConfig.txt</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Users\ghoshovsky\Documents\Visual Studio 2013\Projects\EmailAddin\MasterConfig.txt</td><td>1</td><td/></row>
+		<row><td>runemaildaemon.bat</td><td>ISX_DEFAULTCOMPONENT1</td><td>RUNEMA~1.BAT|runEmailDaemon.bat</td><td>0</td><td/><td/><td/><td>1</td><td>E:\Users\ghoshovsky\Documents\Visual Studio 2013\Projects\EmailAddin\runEmailDaemon.bat</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">

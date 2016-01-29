@@ -7,7 +7,7 @@ b) THe Email Reminder Job. The follwoing requirements must be met for this to ru
 	IT must have a file create per Sharpoint App/List.
 	The application must run in the same folder as the configuration files.
 	The current state of logging is via the Console, so that must be recirected to a log file
-		eg. EmailAddinDaemon 1> output.txt 2>&1
+		eg. EmailAddinDaemon 1>> output.txt 2>&1
 
 --------------------------------------------------------------------------------
 Here is a Skeleton MasterConfig.txt file

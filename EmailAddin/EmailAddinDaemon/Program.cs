@@ -14,7 +14,7 @@ namespace EmailAddinDaemon
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Eamil addin Starting");
+            Console.WriteLine("--------------------------Eamil addin Starting"+ DateTime.Now);
             JavaScriptSerializer serializer = new JavaScriptSerializer();
             ListUtility lUtility = new ListUtility();
             String masterPath =lUtility.getMasterPath();
@@ -45,7 +45,7 @@ namespace EmailAddinDaemon
                 
                 }
             }
-            Console.WriteLine("Eamil addin Ending");
+            Console.WriteLine("--------------------------Eamil addin Ending" + DateTime.Now); 
         }
     }
 }
